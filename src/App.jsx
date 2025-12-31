@@ -1,13 +1,6 @@
-// const App = () => { 
-//   return(
-//   <h1>FactVoyage App</h1>
-//   )
-// };
-
-// export default App;
-  
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AppLayout } from "./components/Layout/AppLayout";
+
 
 import "./App.css";
 

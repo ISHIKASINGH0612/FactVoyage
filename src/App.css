@@ -5,7 +5,7 @@
 }
 
 :root {
-  --bg-color: #202020;
+  --bg-color: #7dd3fc;
 }
 
 html {
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: #7dd3fc;
 }
 
 h1,
@@ -61,7 +61,8 @@ button {
   border: none;
   text-transform: unset;
   transition: all 0.3s ease-in-out;
-  background: #202020;
+  /* background: #202020; */
+  background: #2fb3f3;
   color: #fff;
   border-radius: 1.5rem;
   /*thisdoesn'twork*/
@@ -102,7 +103,7 @@ button {
 header {
   height: 10rem;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 10px 10px -10px;
-  background-color: #202020;
+  background-color: #2fb3f3;
   width: 100%;
 
   & .container {
@@ -148,7 +149,8 @@ nav ul {
     position: absolute;
     top: 10rem;
     left: 0;
-    background-color: #0d1212;
+    /* background-color: #0d1212; */
+    background-color: #2fb3f3;
     width: 100%;
     box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
   }
@@ -247,7 +249,8 @@ nav ul {
 .container-card {
   position: relative;
   border: 2px solid transparent;
-  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+  background: #2fb3f3;
   background-clip: padding-box;
   border-radius: 45px;
   padding: 40px;
@@ -275,19 +278,23 @@ nav ul {
 }
 
 .bg-green-box::after {
-  background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
+  /* background: linear-gradient(71deg, #0d1212, #3da077, #0d1212); */
+  background: #2fb3f3;
 }
 
 .bg-white-box::after {
-  background: linear-gradient(71deg, #121013, #b0afb0, #121013);
+  /* background: linear-gradient(71deg, #121013, #b0afb0, #121013); */
+   background: #2fb3f3;
 }
 
 .bg-yellow-box::after {
-  background: linear-gradient(71deg, #110e0e, #afa220, #110e0e);
+  /* background: linear-gradient(71deg, #110e0e, #afa220, #110e0e); */
+   background: #2fb3f3;
 }
 
 .bg-blue-box::after {
-  background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+  /* background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e); */
+   background: #2fb3f3;
 }
 
 .card-title {
@@ -317,7 +324,9 @@ nav ul {
   align-items: center;
 
   & .icon {
-    color: #3a4ed5;
+    /* color: #3a4ed5; */
+    color: white;
+   
     font-size: 3.6rem;
 
     & .icon:nth-child(2) {
@@ -333,7 +342,8 @@ nav ul {
 
   & p {
     font-size: 1.5rem;
-    color: #757575;
+    color: white;
+    /* color: #2fb3f3; */
   }
 
   & p:first-child {
@@ -355,18 +365,18 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #2fb3f3;
   position: relative;
 }
 
 .copyright-area {
-  background: #202020;
+  background: white;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: black;
 }
 .copyright-text p a {
   color: #3a4ed5;
@@ -450,7 +460,8 @@ country Card
 
   & .container-card {
     padding: 0.8rem 2.4rem;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+    background: #2fb3f3;
   }
 
   & input {
@@ -461,11 +472,13 @@ country Card
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.8);
     border: 0.05rem solid #fff;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+    background: #2fb3f3;
   }
 
   & .select-section {
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+    background: #2fb3f3;
     color: rgba(255, 255, 255, 0.8);
     padding: 0.6rem 2.4rem;
     border-radius: 5rem;
