@@ -1,35 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// const App = () => { 
+//   return(
+//   <h1>FactVoyage App</h1>
+//   )
+// };
 
-function App() {
-  const [count, setCount] = useState(0)
+// export default App;
+  
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { AppLayout } from "./components/Layout/AppLayout";
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+import "./App.css";
 
-export default App
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import { Country } from "./pages/Country";
+import { Contact } from "./pages/Contact";
+import { ErrorPage } from "./pages/ErrorPage";
+import { CountryDetails } from "./components/Layout/CountryDetails";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "country",
+        element: <Country />,
+      },
+      {
+        path: "country/:id",
+        element: <CountryDetails />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+    ],
+  },
+]);
+
+const App = () => {
+  return <RouterProvider router={router}> </RouterProvider>;
+};
+
+export default App;
