@@ -40,7 +40,7 @@ li {
 }
 
 a {
-  color: #000;
+  color:white;
 
   &:hover {
     color: #2e86c1;
@@ -352,13 +352,13 @@ nav ul {
     color: #fff;
   }
 }
-
+/* 
 .footer-menu {
   & ul {
     display: flex;
     justify-content: end;
   }
-}
+} */
 
 ul {
   margin: 0px;
@@ -366,7 +366,7 @@ ul {
 }
 .footer-section {
   background: #2fb3f3;
-  position: relative;
+  /* position: relative; */
 }
 
 .copyright-area {
@@ -380,9 +380,10 @@ ul {
 }
 .copyright-text p a {
   color: #3a4ed5;
-  margin-left: 0.6rem;
+  /* margin-left: 0.6rem; */
+  text-align: center;
 }
-.footer-menu li {
+/* .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
@@ -392,7 +393,7 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
+} */
 
 /* --------------- 
 country Card 
@@ -493,7 +494,8 @@ country Card
     text-transform: capitalize;
 
     & option {
-      background: linear-gradient(71deg, #080509, #1a171c, #080509);
+      /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+      background: #2fb3f3;
       color: rgba(255, 255, 255, 0.8);
       padding: 0.6rem 2.4rem;
       border-radius: 5rem;
@@ -501,7 +503,8 @@ country Card
   }
 
   & .select-section > option {
-    background-color: #080509;
+    /* background-color: #080509; */
+    background: #2fb3f3;
     color: rgba(255, 255, 255, 0.8);
     padding: 0.6rem 2.4rem;
     border-radius: 5rem;
@@ -541,7 +544,8 @@ contact us page
     & input,
     & textarea {
       font-family: "urbanist";
-      background-color: #000;
+      /* background-color: #000; */
+      background: #2fb3f3;
       font-size: 1.6rem;
       color: #fff;
       outline: none;
@@ -591,7 +595,7 @@ contact us Page ends here
   padding: 8px;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: #25b09b;
+  background: white;
   --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
   -webkit-mask: var(--_m);
   mask: var(--_m);

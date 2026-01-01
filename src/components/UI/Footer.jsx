@@ -41,7 +41,7 @@ export const Footers = () => {
               </p>
             </div>
 
-            <div className="footer-menu">
+            {/* <div className="footer-menu">
               <ul>
                 <li>
                   <NavLink to="/">Home</NavLink>
@@ -67,7 +67,7 @@ export const Footers = () => {
                   <NavLink to="/contact">Contact</NavLink>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
