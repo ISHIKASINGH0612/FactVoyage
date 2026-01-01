@@ -114,4 +114,11 @@ Through this project, I gained hands-on experience with:
 
 ---
 
+🙏 Acknowledgements
+
+This project was built while learning from the Technical Thapa React tutorial series. The tutorial provided guidance on React fundamentals, project structure, routing, and UI layout, which helped shape the overall development approach.
+
+The implementation, styling, debugging, and customization of features were done independently as part of hands-on practice and learning.
+
+
 
