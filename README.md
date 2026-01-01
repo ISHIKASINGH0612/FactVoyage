@@ -1,16 +1,117 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌍 FactVoyage
 
-Currently, two official plugins are available:
+**FactVoyage** is a modern, responsive web application built with **React** that allows users to explore interesting facts and key information about countries around the world. The project focuses on clean UI, smooth navigation, and real-world data presentation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+FactVoyage lets users:
 
-## Expanding the ESLint configuration
+* Explore countries across the globe
+* View country details in an interactive way
+* Navigate seamlessly using client-side routing
+* Experience a modern, dark-themed UI inspired by travel and exploration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+* 🌐 Browse countries with detailed information
+* 🔍 Search and filter countries easily
+* 🗺️ View country details on a dedicated page
+* 📱 Fully responsive design (desktop & mobile)
+* 🎨 Clean, modern UI with dark theme
+* ⚡ Fast performance using Vite
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React (with Hooks)
+* **Routing:** React Router DOM
+* **Styling:** CSS (custom, responsive layout)
+* **Build Tool:** Vite
+* **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+FactVoyage/
+│
+├── src/
+│   ├── components/
+│   │   ├── Layout/
+│   │   └── UI/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+├── public/
+├── index.html
+└── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/ISHIKASINGH0612/FactVoyage.git
+```
+
+2. **Navigate to the project folder**
+
+```bash
+cd FactVoyage
+```
+
+3. **Install dependencies**
+
+```bash
+npm install
+```
+
+4. **Run the development server**
+
+```bash
+npm run dev
+```
+
+5. Open your browser at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧠 Learning Outcomes
+
+Through this project, I gained hands-on experience with:
+
+* React component-based architecture
+* Client-side routing using React Router
+* Debugging real-world React issues
+* Creating reusable UI components
+* Building responsive layouts with CSS
+* Managing a complete project workflow using Git
+
+---
+
+
+## 👩‍💻 Author
+
+**Ishika Singh**
+ CSE Student 
+📌 Passionate about building real-world web applications
+
+---
+
+
